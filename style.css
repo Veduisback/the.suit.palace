@@ -388,9 +388,93 @@ h1, h2, h3, h4 {
 /* =========================================================
    REVEAL ON SCROLL
 ========================================================= */
-.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }
-.reveal.is-visible { opacity: 1; transform: translateY(0); }
+/* =========================================================
+   SCROLL REVEALS
+   ========================================================= */
 
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   COLLECTION — CINEMATIC SIDE SLIDE
+   ========================================================= */
+
+/*
+  The normal .reveal system is still used by the rest
+  of the website.
+
+  Collection pieces use their own scroll-linked transform.
+*/
+
+.collection .piece {
+  --catalog-x: 0px;
+
+  opacity: 0;
+
+  /*
+    JS continuously changes --catalog-x while scrolling.
+    The piece therefore enters from either side instead
+    of simply moving vertically.
+  */
+  transform: translate3d(var(--catalog-x), 0, 0);
+
+  /*
+    Disable the normal .reveal transition here.
+    The movement itself is controlled by scroll position.
+  */
+  transition: none;
+
+  will-change: transform, opacity;
+}
+
+
+/*
+  Once JavaScript determines that the piece has reached
+  its final position, it stays completely settled.
+*/
+.collection .piece.is-catalog-settled {
+  transform: translate3d(0, 0, 0);
+}
+
+
+/*
+  Make sure pieces sliding in from outside the gallery
+  don't create visual horizontal overflow.
+*/
+.gallery {
+  overflow: hidden;
+}
+
+
+/*
+  Keep the existing image hover animation untouched.
+*/
+.collection .piece img {
+  will-change: transform;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .collection .piece {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .reveal, .hero-title .line, .kicker, .hero-sub, .hero-content .btn { animation: none !important; opacity: 1 !important; transform: none !important; }
   .hero-bg { animation: none; transform: none; }
