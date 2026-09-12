@@ -1,0 +1,112 @@
+Use the uploaded raw suit image as the primary and exact reference for the clothing.
+Create a high-end professional Indian fashion model photoshoot featuring a female model wearing the exact same suit from the reference image.
+
+CLOTHING PRESERVATION
+Preserve the suit exactly as shown in the reference.
+Do NOT redesign, recolor, simplify, replace, or alter the suit.
+Maintain the exact fabric appearance, embroidery, prints, patterns, borders, neckline, sleeves, dupatta, pants, stitching details, ornaments, and color combination.
+The clothing must remain the main visual focus.
+Make the garment look naturally worn by the model with realistic fabric folds, draping, texture, and proportions.
+MODEL & PHOTOGRAPHY
+Use an elegant, realistic Indian female fashion model.
+Natural, sophisticated pose suitable for a premium ethnic-fashion catalogue.
+Full-body or 3/4-body composition so the complete suit is clearly visible.
+Realistic Indian skin texture and facial features.
+Professional fashion photography.
+High-end luxury clothing campaign aesthetic.
+Sharp focus on the model and garment.
+Natural studio-quality lighting with realistic shadows.
+Photorealistic result, not illustration or CGI.
+COLOR-MATCHED ENVIRONMENT
+Analyze the dominant colors of the suit and automatically create a small, tasteful environmental context that complements those colors.
+The background should NOT be a random generic studio backdrop.
+Instead, create a subtle location/set that visually belongs with the suit's color palette.
+For example:
+RED / MAROON / CRIMSON SUIT
+Use a luxurious warm environment such as:
+traditional Indian palace-inspired interiors
+deep red curtains
+subtle antique gold elements
+warm lamps
+elegant carved wooden furniture
+muted floral arrangements
+soft warm lighting
+GOLD / MUSTARD / YELLOW SUIT
+Use a warm festive environment such as:
+golden palace or heritage interior
+warm beige walls
+brass decorative objects
+marigold flowers
+traditional lamps
+subtle golden architectural details
+warm sunlight
+WHITE / IVORY / CREAM SUIT
+Use an elegant bright environment such as:
+ivory architectural interiors
+white marble
+soft beige walls
+delicate flowers
+subtle gold accents
+natural daylight
+minimal luxury decor
+PINK / ROSE / PEACH SUIT
+Use a soft romantic environment such as:
+pastel Indian interiors
+soft floral arrangements
+blush-colored curtains
+elegant arches
+warm ambient lighting
+subtle decorative elements
+GREEN / EMERALD SUIT
+Use a sophisticated heritage environment such as:
+botanical greenery
+traditional Indian architecture
+muted gold accents
+natural stone
+indoor plants
+warm daylight
+BLUE / NAVY / TEAL SUIT
+Use a refined cool-toned environment such as:
+elegant heritage architecture
+muted blue walls
+stone or marble
+subtle brass/gold decor
+soft daylight
+understated luxury furniture
+If the suit contains multiple colors, identify the dominant color and secondary accent colors and combine the corresponding environmental elements naturally.
+
+IMPORTANT BACKGROUND RULE
+The background should provide context, not competition.
+Keep the environment slightly softer and less detailed than the model and suit. The suit must remain the first thing the viewer notices.
+Add only a few carefully selected background objects that make sense for the color palette and clothing style.
+Do NOT overcrowd the scene.
+Do NOT add random objects simply for decoration.
+Do NOT change the clothing to match the background.
+
+COMPOSITION
+Create a premium fashion campaign image with:
+
+balanced composition
+realistic depth of field
+subtle background blur
+natural perspective
+elegant pose
+enough surrounding environment to establish context
+garment clearly visible from top to bottom
+sophisticated editorial framing
+The final result should look like a real professional photoshoot for a premium Indian ethnic-fashion brand, rather than an AI-generated image.
+Priority order:
+
+Exact clothing accuracy
+Realistic model
+Natural garment fit and draping
+Professional fashion photography
+Color-matched environmental context
+Elegant, uncluttered background
+Photorealistic lighting and details
+Do not add text, logos, watermarks, product labels, extra clothing, or unrelated objects.
+please dont add other items to the dress if not present in original image
+
+
+
+
